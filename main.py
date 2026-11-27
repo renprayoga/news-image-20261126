@@ -9,6 +9,9 @@ and nothing else. Deterministic: no network, no clock, no randomness.
 """
 
 import os
+import sys
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from render import Page, write_png
 
